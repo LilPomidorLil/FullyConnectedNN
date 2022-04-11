@@ -15,6 +15,7 @@ private:
 	double eta;
 
 public:
+	FullyConnected() {}
 	// конструктор
 	FullyConnected(int input_size, int output_size, double learning_rate)
 	{
